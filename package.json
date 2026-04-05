@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "bin": {
-    "notyfai": "./bin/notyfai.js"
+    "notyfai": "bin/notyfai"
   },
   "engines": {
     "node": ">=18"
