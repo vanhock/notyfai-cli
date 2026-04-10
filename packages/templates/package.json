@@ -1,0 +1,17 @@
+{
+  "name": "@notyfai-cli/templates",
+  "version": "0.1.0",
+  "description": "Shell hook scripts for Notyfai IDE integrations (used by notyfai-cli)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "*.sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanhock/notyfai-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
