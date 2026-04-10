@@ -3,5 +3,9 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "publish:cli": "npm publish -w notyfai",
+    "publish:cli:dry": "npm publish -w notyfai --dry-run"
+  }
 }
