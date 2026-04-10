@@ -1,0 +1,35 @@
+{
+  "name": "notyfai",
+  "version": "0.1.4",
+  "description": "Notyfai CLI — install IDE hooks from the Notyfai API",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "notyfai": "bin/notyfai.mjs",
+    "notyfai-cli": "bin/notyfai.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "keywords": [
+    "notyfai",
+    "cursor",
+    "claude",
+    "hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanhock/notyfai-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanhock/notyfai-cli/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/notyfai",
+  "publishConfig": {
+    "access": "public"
+  }
+}
